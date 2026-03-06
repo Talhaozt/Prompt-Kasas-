@@ -1,16 +1,62 @@
-# React + Vite
+Prompt Kasası
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  React ile geliştirilmiş bir AI Prompt Yönetim Uygulaması.
+  Kullanıcıların yapay zeka promptlarını kaydedip düzenleyebileceği basit ve modern bir arayüz sunar.
 
-Currently, two official plugins are available:
+Özellikler:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  Prompt ekleme
+  Prompt düzenleme
+  Prompt silme
+  Prompt kopyalama
+  Kategori sistemi
+  Etiket (tag) sistemi
+  Arama özelliği
+  LocalStorage ile veri saklama
 
-## React Compiler
+Kullanılan Teknolojiler:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  React
+  Vite
+  JavaScript
+  CSS
+  LocalStorage
 
-## Expanding the ESLint configuration
+Proje Yapısı:
+  src
+   ├ components
+   │  ├ Header.jsx
+   │  ├ PromptForm.jsx
+   │  ├ PromptList.jsx
+   │  └ PromptItem.jsx
+   │
+   ├ pages
+   │  └ Home.jsx
+   │
+   ├ App.jsx
+   ├ main.jsx
+   └ index.css
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ Uygulama Nasıl Çalıştırılır:
+   Projeyi klonlayın:
+    git clone https://github.com/KULLANICI_ADIN/Prompt-Kasasi.git
+   Klasöre girin:
+    cd Prompt-Kasasi
+   Bağımlılıkları yükleyin:
+    npm install
+   Uygulamayı çalıştırın:
+    npm run dev
+   Tarayıcıda açın:
+   http://localhost:5173
+ 
+ Amaç:
+  Bu proje React öğrenme sürecinde:
+  Component mimarisi
+  CRUD işlemleri
+  LocalStorage veri yönetimi
+  modern frontend geliştirme
+  konularını pekiştirmek amacıyla geliştirilmiştir.
+
+Geliştirici:
+  Talha Öztürk
+  Computer Engineering
